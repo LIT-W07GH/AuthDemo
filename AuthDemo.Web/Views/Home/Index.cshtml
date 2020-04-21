@@ -1,0 +1,11 @@
+﻿@model HomePageViewModel
+<h1>Home page!!</h1>
+
+@if (Model.IsLoggedIn)
+{
+    <h2>Welcome back logged in user!</h2>
+}
+else
+{
+    <h2>I don't know you at all!! LOG IN PLEASE!!!</h2>
+}
