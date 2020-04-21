@@ -5,6 +5,7 @@ This is a simple demo app that shows how to use authentication in .Net Core. Whe
 A few things to look out for:
 * When referencing BCrypt in the class library, make sure to reference BCrypt.Net-Core from Nuget
 
+![BCrypt Nuget]("https://raw.githubusercontent.com/LIT-W07GH/AuthDemo/master/bcrypt.png")
 
 Here are the relevant pieces of code needed to make this work. First, you need to set up Authentication in the `Startup.cs` file:
 
